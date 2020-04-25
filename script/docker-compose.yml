@@ -1,0 +1,15 @@
+version: "3.4"
+services:
+  pyth2:
+    network_mode: host
+    container_name: pyth2
+    build:
+      context: .
+    environment:
+      - KAGGLE_USERNAME=$KAGGLE_USERNAME
+      - KAGGLE_KEY=$KAGGLE_KEY
+      - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+      - AWS_SESSION_TOKEN=$AWS_SESSION_TOKEN
+    volumes:
+      - ./:/app/:rw

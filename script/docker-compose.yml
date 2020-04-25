@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  pyth2:
+    network_mode: host
+    container_name: pyth2
+    build:
+      context: .
+    environment:
+      - KAGGLE_CONFIG_DIR=/app/
+    volumes:
+      - ./:/app/:rw

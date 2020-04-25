@@ -1,13 +1,8 @@
-import 
-
-
-from src import opcv, es
+import kaggle
+import boto3
 import sys
 import os
-from datetime import datetime as dt
 
-temp_path = "app//_temp//"
-temp_json = dt.now().strftime('%Y%m%d.%M%S') + '_temp.json'
 
 def main(): 
 	print('hello matt')

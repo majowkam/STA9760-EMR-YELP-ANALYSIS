@@ -9,7 +9,7 @@ The below environment variables will need to be set before running:
 * AWS_SECRET_ACCESS_KEY= Your AWS CLI Secret Key
 
 ## Cluster Configuration
-![cluster](https://raw.githubusercontent.com/majowkam/STA9760-EMR-YELP-ANALYSIS/master/assets/cluster.png)
+![cluster](/master/assets/cluster.png)
 
 ## Notebook Configuration
-![notebook](https://raw.githubusercontent.com/majowkam/STA9760-EMR-YELP-ANALYSIS/master/assets/notebook.png)
+![notebook](/master/assets/notebook.png)

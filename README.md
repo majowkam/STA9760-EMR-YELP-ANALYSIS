@@ -9,7 +9,7 @@ The below environment variables will need to be set before running:
 * AWS_SECRET_ACCESS_KEY= Your AWS CLI Secret Key
 
 ## Cluster Configuration
-![cluster](/master/assets/cluster.png)
+![cluster](/assets/cluster.PNG)
 
 ## Notebook Configuration
-![notebook](/master/assets/notebook.png)
+![notebook](/assets/notebook.PNG)

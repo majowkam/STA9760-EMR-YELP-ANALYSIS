@@ -1,6 +1,6 @@
 # STA9760-EMR-YELP-ANALYSIS
 
-## [Analysis](analysis.ipynb)
+## [Analysis](Analysis.ipynb)
 
 ## Kaggle to S3
 
